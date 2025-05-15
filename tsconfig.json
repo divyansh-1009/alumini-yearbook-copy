@@ -20,8 +20,19 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/providers.tsx", "src/app/models/User.ts", "src/app/api/auth/upload.js", "src/lib/mongodb.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/providers.tsx",
+    "src/app/models/User.ts",
+    "src/app/api/auth/upload.js",
+    "src/lib/mongodb.js",
+    "src/types/**/*"
+  ],
   "exclude": ["node_modules"]
 }
