@@ -33,6 +33,5 @@
     "src/app/api/auth/upload.js",
     "src/lib/mongodb.js",
     "src/types/**/*"
-  ],
-  "exclude": ["node_modules"]
+  ]
 }
